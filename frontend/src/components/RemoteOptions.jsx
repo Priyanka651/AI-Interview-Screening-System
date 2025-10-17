@@ -13,7 +13,13 @@ export default function RemoteOptions() {
           </div>
         ))}
       </div>
-      <button className="mt-6 bg-orange-500 text-gray-800 px-6 py-2 rounded-lg hover:bg-orange-600">Next</button>
+<button className="w-40 mt-6 px-6 py-2 rounded-lg text-white
+                   bg-gradient-to-r from-orange-400 to-orange-500
+                   hover:from-orange-500 hover:to-orange-700 transition">
+  Next
+</button>
+
+
     </section>
   );
 }

@@ -14,12 +14,20 @@ export default function AboutSection() {
       <div className="flex-1 space-y-4">
         <h2 className="text-2xl font-bold">Over 10 Million Job Seekers</h2>
         <p className="text-gray-600">
-          AI Based Interviw Jobs has been helping people find professional, legitimate remote jobs since 2007.
+          AI Based Interview Jobs has been helping people find professional, legitimate remote jobs since 2025.
         </p>
-        <button className="bg-orange-500 text-black px-6 py-3 rounded-lg shadow hover:bg-orange-600">
-          Start Your Remote Job Search Now!
-        </button>
+    <button
+  className="w-full text-white py-3 rounded-lg font-semibold text-lg shadow-md 
+             bg-gradient-to-r from-orange-400 to-teal-400
+             hover:from-orange-500 hover:to-teal-500 transition-all duration-300"
+>
+  Start Your Remote Job Search Now!
+</button>
+
       </div>
     </section>
   );
 }
+
+
+
