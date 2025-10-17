@@ -18,7 +18,7 @@ export default function Jobs() {
         <p className="text-lg md:text-xl mb-6">
           Stress less. Browse and apply to expert-verified, scam-free jobs near you and across the globe.
         </p>
-        <button className="bg-orange-500 text-white font-bold py-2 px-6 rounded-lg hover:bg-orange-600 transition">
+        <button className="bg-orange-500 text-black font-bold py-2 px-6 rounded-lg hover:bg-orange-600 transition">
           Start Your Remote Job Search Now!
         </button>
       </section>

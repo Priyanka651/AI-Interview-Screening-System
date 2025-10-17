@@ -1,18 +1,3 @@
-// export default function NavBar() {
-//   return (
-//     <div className="w-full bg-gray-900 text-white">
-//       <div className="max-w-7xl mx-auto flex items-center gap-6 px-6 py-3">
-//         <a href="#" className="hover:text-orange-400">Home</a>
-//         <a href="#" className="hover:text-orange-400">Jobs</a>
-//         <a href="#" className="hover:text-orange-400">Companies</a>
-//         <a href="#" className="hover:text-orange-400">About</a>
-//         <a href="#" className="hover:text-orange-400">Contact</a>
-//       </div>
-//     </div>
-//   );
-// }
-
-
 
 import { Link } from "react-router-dom";
 
