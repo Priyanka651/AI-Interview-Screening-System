@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "68f0676613f5e0bb300d0851"
+  },
+  "from": "from",
+  "flask": "flask_pymongo",
+  "import": "import",
+  "Flask,": "PyMongo"
+},
+{
+  "_id": {
+    "$oid": "68f0676613f5e0bb300d0852"
+  },
+  "from": "from",
+  "flask": "bson",
+  "import": "import",
+  "Flask,": "ObjectId"
+},
+{
+  "_id": {
+    "$oid": "68f0676613f5e0bb300d0853"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f0676613f5e0bb300d0854"
+  },
+  "from": "app",
+  "flask": "=",
+  "import": "Flask(__name__)"
+},
+{
+  "_id": {
+    "$oid": "68f0676613f5e0bb300d0855"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f0676613f5e0bb300d0856"
+  },
+  "from": "#",
+  "flask": "MongoDB",
+  "import": "Config"
+},
+{
+  "_id": {
+    "$oid": "68f0676613f5e0bb300d0857"
+  },
+  "from": "app.config[\"MONGO_URI\"]",
+  "flask": "=",
+  "import": "mongodb://localhost:27017/ai_interview"
+},
+{
+  "_id": {
+    "$oid": "68f0676613f5e0bb300d0858"
+  },
+  "from": "mongo",
+  "flask": "=",
+  "import": "PyMongo(app)"
+},
+{
+  "_id": {
+    "$oid": "68f0676613f5e0bb300d0859"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f0676613f5e0bb300d085a"
+  },
+  "from": "@app.route('/')"
+},
+{
+  "_id": {
+    "$oid": "68f0676613f5e0bb300d085b"
+  },
+  "from": "def",
+  "flask": "home():"
+},
+{
+  "_id": {
+    "$oid": "68f0676613f5e0bb300d085c"
+  },
+  "request,": "return",
+  "jsonify": "jsonify({\"message\":"
+}]
